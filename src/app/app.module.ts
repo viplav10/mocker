@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import { LandingPageComponent } from './landing-page/landing-page.component';
 import { PopupComponentComponent } from './landing-page/popup-component/popup-component.component';
 import { BlogsComponent } from './blogs/blogs.component';
-import { HttpClient, HttpClientModule } from '@angular/common/http';
+import {  HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [

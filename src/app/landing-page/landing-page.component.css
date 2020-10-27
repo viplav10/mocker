@@ -1,3 +1,8 @@
+.routes{
+ font-size: 0.9em;
+font-family:"Montserrat",sans-serif;
+}
+/* ----------------------------------------------------------------------------------------------- */
 .boldAndBig{
     font-weight:800;
     font-size: 1.5em;
@@ -31,11 +36,15 @@
 }
 
 .home{
-    margin-top:4%;padding-left:10%;
+    margin-top:4%;
 }
 
 .section3{
-    padding-left:10%;padding-right:10%;padding-top:5%;
+    padding-left:10%;padding-right:10%;padding-top:5%;;
+}
+
+.section4{
+  padding-left:10%;padding-right:10%;padding-top:5%;padding-bottom: 7%;margin-bottom: 5%;
 }
 
 .quarterWidth{
@@ -43,11 +52,11 @@
 }
 
 .marginForty{
-    margin-left:37%;
+    margin-left:0%;
 }
 
 .secTriInner{
-    margin-left:35%;font-weight:800;
+    margin-left:0%;font-weight:800;
 }
 
 .flex{
@@ -293,3 +302,48 @@
   }
   
   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .round-button {
+	box-sizing: border-box;
+	
+	width:30px;
+	height:30px;
+	padding-top: 4px;
+	padding-left: 1px;
+	line-height: 5px;
+	border: 1px solid #fff;
+	border-radius: 50%;
+	color:#f5f5f5;
+	text-align:center;
+	text-decoration:none;
+	background-color: rgba(0,0,0,0.5);
+	font-size:5px;
+	font-weight:bold;
+	transition: all 0.3s ease;
+}
+.round-button:hover {
+	background-color: rgba(0,0,0,0.8);
+	box-shadow: 0px 0px 3px rgba(255,255,100,1);
+	text-shadow: 0px 0px 3px rgba(255,255,100,1);
+}

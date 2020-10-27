@@ -35,12 +35,12 @@ export class LandingPageComponent implements OnInit {
   }
 
   on() {
-    document.getElementById("overlay").style.display = "block";
+    document.getElementById("main").style.display = "block";
     this.showPopup=!this.showPopup;
   }
 
   off() {
-    document.getElementById("overlay").style.display = "none";
+    document.getElementById("main").style.display = "none";
     this.showPopup=!this.showPopup;
   }
 
