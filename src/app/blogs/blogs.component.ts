@@ -10,7 +10,7 @@ import { SafeResourceUrl, DomSanitizer } from '@angular/platform-browser';
 export class BlogsComponent implements OnInit {
 
   blogHtml:any;
-  blogImg:any;
+  blogImg:any= "http://localhost:3000/";
   videoUrl:any;
   blogTopic:any;
 
@@ -23,6 +23,7 @@ export class BlogsComponent implements OnInit {
     this.activatedRoute.queryParams.subscribe(params=>{
       this.blogHtml=params.body;
       this.blogTopic=params.blogTopic;   
+      this.blogImg = this.blogImg+params.image;
       console.log(params);      
       this.videoUrl=this._DomSanitizationService.bypassSecurityTrustResourceUrl(params.videoURL);
       console.log('videoUrl',this.videoUrl);

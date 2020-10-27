@@ -24,7 +24,7 @@ export class LandingPageComponent implements OnInit {
   
   ngOnInit(): void {
 
-    this.landingPageService.getBlog().subscribe((data)=>{
+    this.landingPageService.getBlog().subscribe((data:any[])=>{
       this.blogInfo=data;
       console.log(data);
     });
